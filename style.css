@@ -1,0 +1,48 @@
+    .row.content {height: 800px}
+    
+    .sidenav {
+      background-color: #321497;
+      height: 120%;
+    }
+
+    
+    footer {
+      background-color: #321497;
+      color: #CBB26A;
+      padding: 15px;
+    }
+
+    .inlogblok {
+      background-color: green;
+      width: 100px;
+      height: 100px;
+    }
+
+    .nav-pills>li>a {
+      color: #CBB26A !important;
+    }
+
+    .nav-pills>li>a .hover {
+      background-color: #14083d;
+    }
+
+    .button {
+      background-color: #321497;
+      border: none;
+      border-radius: 10px;
+      color: #CBB26A;
+      width: auto;
+      height: 30px;
+    }
+
+    .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+      background-color: #14083d !important;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: 800px;} 
+    }
